@@ -1,0 +1,38 @@
+<div class="container">
+  <div class="row justify-content-center">
+
+    <div class="col-sm-6">
+      <div>
+        <h1>Speed Click</h1>
+        <br>
+      </div>
+
+        <div class="input-group">
+
+          <input type="text" id="username" [(ngModel)] = "username" class="form-control" placeholder="Username">
+        </div>
+        <br>
+        <div class="input-group">
+
+          <input type="text" id="Email" [(ngModel)] = "email" class="form-control" placeholder="Email">
+        </div>
+        <br>
+        <div class="input-group">
+
+          <input type="text" id="id" [(ngModel)] = "id" class="form-control" placeholder="Id">
+        </div>
+        <br>
+        <button class="btn btn-warning btn-block" (click) = 'play()'routerLink = '/play'> Start </button>
+
+
+      <p>
+        click the white box to score 10 pts.
+        clicking on red box will end the game.
+        game will get over in 2 mins.
+      </p>
+    </div>
+
+  </div>
+
+
+</div>

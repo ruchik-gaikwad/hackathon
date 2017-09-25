@@ -1,0 +1,28 @@
+
+.row{
+  margin-top: 5%;
+}
+#first{
+  background-color:#FF7256;
+  height: 200px;
+  border: solid #cc453a 5px ;
+  border-radius: 10px;
+}
+#second{
+  background-color: #FF7256;
+  height: 200px;
+  border: solid #cc453a 5px ;
+  border-radius: 10px;
+}
+#third{
+  background-color: #FF7256;
+  height: 200px;
+  border: solid #cc453a 5px ;
+  border-radius: 10px;
+}
+#fourth{
+  background-color: #FF7256;
+  height: 200px;
+  border: solid #cc453a 5px ;
+  border-radius: 10px;
+}
